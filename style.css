@@ -1,28 +1,66 @@
+body {
+    margin: 0px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    text-align: center;
+    background-color: #69F0AE;
+}
+
+#img {
+    width: 200px;
+    border-radius: 50%;
+    margin-bottom: 50px;
+}
+
+
+}
+
+.parallax-inner {
+    display: table-cell;
+    position: relative;
+    vertical-align: middle;
+}
+
 .line {
     height: 6px;
     width: 70px;
-    background: black;
+    background: #B388FF;
     margin: 8px auto;
 }
-#MyCarousel{
-    background-color: blueviolet;
+
+h1 {
+    font-family: monospace;
+    font-size: 40px;
+    color: #FF8A80;
 }
-#MyCarousel img{
-    height : 400px;
-    width : 300x;
-    margin-top : 35px;
+
+p {
+    font-size: 20px;
+    font-family: 'Lobster', cursive;
+    color: #448AFF;
 }
-.carousel-content p{
-    color : crimson;
-    font-size: 50px;
-    margin-top: 15px;
-    margin-bottom: 15px;
+
+.ul {
+    list-style: none;
+    font-family: 'Press Start 2P', cursive;
+    position: fixed;
+    top: 10px;
+    right: 30px;
+    z-index: 12;
+    cursor: pointer;
 }
-body{
-    text-align: center;
-    background-color: blueviolet
+
+.lis {
+    float: left;
+    font-family: 'Lobster', cursive;
+    font-size: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 10px;
+    padding-left: 10px;
+    color: #EEFF41;
 }
-.img{
-    width : 300px;
-    height : 300px
+
+.lis:hover {
+    background-color: #FF80AB;
 }
